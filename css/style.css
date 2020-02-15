@@ -549,6 +549,7 @@ textarea {
 }
 
 .highlights__text {
+    line-height: 1.3;
     letter-spacing: normal;
     display: inline-block;
     vertical-align: top;
@@ -841,6 +842,9 @@ textarea {
 
 .reviews__download-item {
     position: relative;
+}
+
+.reviews__download-item a {
     padding-left: 37px;
 }
 
@@ -1272,6 +1276,10 @@ textarea {
 
     @media (max-width: 1024px) {
 
+        .feature {
+            padding: 50px 0 50px;
+        }
+
         .reviews__right {
             padding-left: 50px;
         }
@@ -1414,13 +1422,6 @@ textarea {
             width: 100%;
         }
 
-        .download__btn a {
-            margin-bottom: 20px;
-            width: 100%;
-            margin-left: 0;
-            
-        }
-
         .info {
             padding: 50px 0;
         }
@@ -1451,7 +1452,7 @@ textarea {
         }
 
         .info__col--descr {
-            padding: 15px;
+            padding: 40px;
         }
 
         .caption {
@@ -1530,8 +1531,23 @@ textarea {
             margin-bottom: 20px;
         }
 
+        .feature__headline {
+            margin-bottom: 20px;
+        }
+
+        .feature__inner {
+            padding: 20px;
+        } 
+
         .partners {
             padding: 50px 0;
+        }
+
+        .download__btn a {
+            margin-bottom: 20px;
+            width: 100%;
+            margin-left: 0;
+            
         }
 
         .partners__item {
@@ -1549,6 +1565,22 @@ textarea {
 
         .reviews__text {
             padding-left: 15px;
+        }
+
+        .pricing__inner {
+            padding: 48px 20px 59px;
+        }
+
+        .pricing__label {
+            margin: 0 -20px 30px;
+        }
+
+        .pricing__right--free .pricing__inner {
+            padding: 48px 20px 59px;
+        }
+
+        .pricing__right--free .pricing__label {
+            margin: 0 -20px 30px;
         }
 
         .footer {
@@ -1581,8 +1613,6 @@ textarea {
         .pricing__left {
             width: 100%;
         }
-
-       
 
     }
 /* ADAPTIV ================================== */
