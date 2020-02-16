@@ -528,6 +528,7 @@ textarea {
     padding: 28px 30px;
     transition: all .3s;
     border-radius: 10px;
+    margin: -9px 0 0 0;
 }
 
 .highlights__item:hover {
@@ -566,6 +567,7 @@ textarea {
 .highlights__title {
     margin-bottom: 4px;
     display: block;
+    line-height: 2;
 }
 /* HOME WORK */
 .download {
