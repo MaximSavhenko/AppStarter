@@ -491,7 +491,7 @@ textarea {
 }
 
 .highlights {
-    padding: 118px 0 103px;
+    padding: 118px 0 105px;
     background-color: #f8f9fa;
     border-bottom: 1px solid #e7e8ea;
 }
@@ -617,7 +617,7 @@ textarea {
 /* HOME WORK */
 
 .info {
-    padding: 120px 0;
+    padding: 120px 0 121px;
     background-color: #f8f9fa;
 }
 
