@@ -397,6 +397,7 @@ textarea {
     text-align: center;
     padding: 0 15px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .feature__inner {
@@ -404,6 +405,7 @@ textarea {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 62px 33px 63px;
+    height: 100%;
 }
 
 .feature__icon {
@@ -1314,6 +1316,10 @@ textarea {
 
         .pricing__right--free .pricing__btn {
             min-width: 100%;
+        }
+        
+        .highlights__list {
+            max-width: 90%;
         }
         /* BURGER ===================== */
 
