@@ -673,6 +673,7 @@ textarea {
     line-height: 1.43;
     display: block;
     margin-bottom: 15px;
+    letter-spacing: 0.6px;
 }
 
 .info__text {
@@ -888,7 +889,7 @@ textarea {
 .reviews__item {
     width: 85%;
     background-color: #fff;
-    padding: 33px 30px 3px;
+    padding: 22px 30px 14px;
     border-radius: 10px;
     box-shadow: 0px 6px 12px 0px rgba(32, 33, 39, 0.08);
     margin-bottom: 20px;
@@ -938,6 +939,8 @@ textarea {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-top: 6px;
+    margin-left: -2px;
 }
 
 .reviews__img img {
@@ -1076,7 +1079,7 @@ textarea {
 
 .pricing__right--free .pricing__inner{
     background-color: #fff;
-    padding: 63px 50px;
+    padding: 63px 35px;
 }
 
 .pricing__right--free .pricing__label {
@@ -1084,7 +1087,7 @@ textarea {
     color: #676c75;
     border-top: 1px solid #eff0f2;
     border-bottom: 1px solid #eff0f2;
-    margin: 0 -50px 30px;
+    margin: 0 -35px 30px;
 }
 
 .pricing__right--free .pricing__price {
@@ -1118,7 +1121,7 @@ textarea {
 .callback {
     background-size: cover;
     background-position: 50% 50%;
-    padding: 114px 0 119px;
+    padding: 115px 0 120px;
     text-align: center;
     color: #fff;
 }
@@ -1137,7 +1140,7 @@ textarea {
 .callback__wrap {
     max-width: 770px;
     margin: 0 auto;
-    padding: 70px;
+    padding: 69px;
     background-color: #fff;
     border-radius: 12px;
 }
@@ -1269,6 +1272,10 @@ textarea {
         .heading__decor {
             display: none;
         }
+
+        .feature {
+            padding: 50px 0 50px;
+        }
     }
 
     @media (max-width: 767px) {
@@ -1279,10 +1286,6 @@ textarea {
     }
 
     @media (max-width: 1024px) {
-
-        .feature {
-            padding: 50px 0 50px;
-        }
 
         .reviews__right {
             padding-left: 50px;
