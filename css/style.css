@@ -1069,7 +1069,7 @@ textarea {
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
     transform: rotate(-45deg);
-    margin-right: 10px;
+    margin-right: 13px;
 }
 
 .pricing__right--free {
@@ -1103,7 +1103,7 @@ textarea {
     color: #676c75;
     font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 2;
 }
 
 .pricing__right--free .pricing__list li::before {
