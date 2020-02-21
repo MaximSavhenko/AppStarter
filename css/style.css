@@ -462,6 +462,13 @@ textarea {
     font-weight: 400;
     line-height: 1.3;
     text-decoration: underline;
+    transition: all .3s;
+    
+}
+
+.feature__watch a:hover {
+    color: #f00;
+    opacity: .5;
 }
 
 .partners {
@@ -493,7 +500,7 @@ textarea {
 }
 
 .highlights {
-    padding: 118px 0 105px;
+    padding: 118px 0 99px;
     background-color: #f8f9fa;
     border-bottom: 1px solid #e7e8ea;
 }
@@ -1279,6 +1286,9 @@ textarea {
     }
 
     @media (max-width: 767px) {
+        .header__nav {
+            display: none;
+        }
 
         .header__btn-menu {
             display: block;
@@ -1326,9 +1336,7 @@ textarea {
         }
         /* BURGER ===================== */
 
-        .header__nav {
-            display: none;
-        }
+        
 
         /* .header__nav-wrap {
             position: fixed;
@@ -1463,7 +1471,7 @@ textarea {
         }
 
         .info__col--descr {
-            padding: 40px;
+            padding: 40px 20px;
         }
 
         .caption {
@@ -1506,6 +1514,11 @@ textarea {
 
         .pricing {
             padding: 50px 0;
+        }
+
+        .pricing__left {
+            display: block;
+            width: 100%;
         }
         
         .pricing__cols {
@@ -1554,6 +1567,14 @@ textarea {
             padding: 50px 0;
         }
 
+        .download__caption--text {
+            text-align: center;
+        }
+
+        .download__descr {
+            text-align: center;
+        }
+
         .download__btn a {
             margin-bottom: 20px;
             width: 100%;
@@ -1574,12 +1595,20 @@ textarea {
             padding: 20px;
         }
 
+        .reviews__item:nth-child(2n) .reviews__text {
+            padding-right: 15px;
+        }
+
         .reviews__text {
             padding-left: 15px;
         }
 
         .pricing__inner {
             padding: 48px 20px 59px;
+        }
+
+        .pricing__caption {
+            margin: 20px 0 20px;
         }
 
         .pricing__label {
