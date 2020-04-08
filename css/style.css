@@ -218,6 +218,7 @@ textarea {
 
 .heading__outer {
     min-height: calc(100vh - 95px);
+    height: calc(100vh - 95px);
     display: table;
     width: 100%;
     padding: 40px 0;
